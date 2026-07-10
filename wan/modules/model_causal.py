@@ -419,7 +419,7 @@ class CausalHead(nn.Module):
         return x
 
 
-class WanModelFast(ModelMixin, ConfigMixin):
+class WanModelCausal(ModelMixin, ConfigMixin):
     r"""
     Wan diffusion backbone supporting both text-to-video and image-to-video.
     """

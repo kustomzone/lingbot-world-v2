@@ -21,7 +21,7 @@ from .distributed.fsdp import shard_model
 from .distributed.sequence_parallel import sp_attn_forward_causal, sp_dit_forward_causal
 from .distributed.util import get_world_size
 from .modules.model_fast import WanModelFast
-from .modules.model_causal import WanModelFast as WanModelCausal
+from .modules.model_causal import WanModelCausal
 from .modules.t5 import T5EncoderModel
 from .modules.vae2_1 import Wan2_1_VAE
 
