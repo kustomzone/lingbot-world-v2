@@ -2,6 +2,7 @@ __pycache__/
 .DS_Store
 .vscode*
 output/
+logs/
 *.mp4
 *.json
 *.pth
